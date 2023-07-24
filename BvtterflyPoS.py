@@ -146,7 +146,7 @@ def costofbutterfly():
     butterfly13= float(varPalinuros.get())
     butterfly14= float(varPalipatos.get())
     butterfly15= float(varPolytes.get())
-    butterfly16= float(Radamentos.get())
+    butterfly16= float(varRadamentos.get())
     butterfly17= float(varRomansovia.get())
     butterfly18= float(varSamia.get())
     butterfly19= float(varSempa.get())
