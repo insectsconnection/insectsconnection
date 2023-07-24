@@ -1,0 +1,2 @@
+Machine,Date,Vehicle No,Driver Name,Driver ID,Assigned Personnel ID,Conductor Name,Conductor ID,Line,Kilometer Start,Kilometer End,From,To,Total Kilometers,Number of Tickets,Passenger Fee,Trip Fare,Total Amount,Card Name,Card Type,Discount Type,Discount
+Bus,"2023,02,07",28018,Abner Acoledo,445,0O,Joel J. Drillo,0O,Lawton Mendez,0O,9,Lawton,Silang,9.0,5,45,45,225,0046788919,Card/Cash,Student,7
