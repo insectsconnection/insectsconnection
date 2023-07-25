@@ -55,7 +55,6 @@ tk==0.1.0
 toml==0.10.2
 tornado==6.2
 tqdm==4.65.0
-typed-ast==1.4.3
 typing_extensions==4.4.0
 tzdata==2022.7
 ua-parser==0.16.1
