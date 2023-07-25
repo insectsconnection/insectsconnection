@@ -84,13 +84,17 @@ reader=csv.reader(F)
 for row in reader:
 	print (row.append())
 	F.closed()
-	
+
 if __name__ == '__main__':
+    # Bind to PORT if defined, otherwise default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    buyitem.run(host='0.0.0.0', port=port)
+#if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("-p", "--port", type=int, default=8080)
     args = parser.parse_args()
 
-    start_server(predict, port=args.port)
+   # start_server(predict, port=args.port)
 
 """
 	def Total_amount():
