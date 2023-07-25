@@ -84,6 +84,13 @@ reader=csv.reader(F)
 for row in reader:
 	print (row.append())
 	F.closed()
+	
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-p", "--port", type=int, default=8080)
+    args = parser.parse_args()
+
+    start_server(predict, port=args.port)
 
 """
 	def Total_amount():
